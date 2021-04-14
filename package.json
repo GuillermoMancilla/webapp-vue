@@ -1,0 +1,52 @@
+{
+  "name": "critoyect",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@saeris/vue-spinners": "^1.0.8",
+    "chart.js": "^2.9.4",
+    "core-js": "^3.6.5",
+    "firebase": "^8.3.0",
+    "numeral": "^2.0.6",
+    "tailwindcss": "^1.1.2",
+    "vue": "^2.6.11",
+    "vue-chartkick": "^1.0.0",
+    "vue-router": "^3.5.1"
+  },
+  "devDependencies": {
+    "@ianaya89/vue-cli-plugin-tailwind": "~1.1.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^5.0.0",
+    "prettier": "^1.19.1",
+    "sass": "^1.32.8",
+    "sass-loader": "10.1.1",
+    "style-loader": "^2.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  }
+}
